@@ -140,7 +140,7 @@ export default function Contact() {
               </h2>
               <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
                 Que ce soit pour un stage, un projet freelance, ou une opportunité professionnelle,
-                n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités
+                n&apos;hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités
                 et aux défis techniques stimulants.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,5 +1,9 @@
 {
-  "/not-found": "app/not-found.js",
+  "/skills/page": "app/skills/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/experience/page": "app/experience/page.js",
+  "/e5/page": "app/e5/page.js",
+  "/projects/[slug]/page": "app/projects/[slug]/page.js",
   "/page": "app/page.js",
-  "/projects/page": "app/projects/page.js"
+  "/veille/page": "app/veille/page.js"
 }

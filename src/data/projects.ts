@@ -123,7 +123,7 @@ export const projects: Project[] = [
     description: "Pipeline IA pour traitement de documents d'entreprise avec systèmes distribués.",
     tech: ["Python", "Go", "Docker", "APIs IA"],
     category: "IA/Systèmes",
-    github: "",
+    github: "https://github.com/Rachadelbaraka/enterprise-rag-pipeline",
     featured: false,
     e5: {
       contexte: "Pipeline de Retrieval-Augmented Generation pour automatiser l'extraction d'informations.",
@@ -165,7 +165,7 @@ export const projects: Project[] = [
     description: "PWA pour journalisation personnelle avec assistance IA.",
     tech: ["TypeScript", "JavaScript", "Supabase", "Vercel"],
     category: "PWA/IA",
-    github: "",
+    github: "https://github.com/Rachadelbaraka/mindful-journal",
     featured: false,
     e5: {
       contexte: "Application PWA pour suivre pensées et émotions avec IA.",
@@ -206,7 +206,7 @@ export const projects: Project[] = [
     description: "Système de trading haute performance distribué.",
     tech: ["Go", "Rust", "PostgreSQL", "Docker"],
     category: "Systèmes",
-    github: "",
+    github: "https://github.com/Rachadelbaraka/go-distributed-orderbook",
     featured: false,
     e5: {
       contexte: "Système simulé pour ordres trading temps réel.",
@@ -246,7 +246,7 @@ export const projects: Project[] = [
     description: "Plateforme de veille technologique sur IA, systèmes distribués et web moderne.",
     tech: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     category: "Veille",
-    github: "",
+    github: "https://github.com/Rachadelbaraka/blog-veille-tech",
     featured: false,
     e5: {
       contexte: "Blog personnel pour partager recherches veille technologique.",

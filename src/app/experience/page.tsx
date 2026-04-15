@@ -246,7 +246,7 @@ export default function Experience() {
               >
                 <div className="text-4xl mb-3">💼</div>
                 <h3 className="text-xl font-semibold text-white mb-2">Baccalauréat STI2D</h3>
-                <p className="text-gray-300 mb-2">Option SIN (Systèmes d'Information et Numérique)</p>
+                <p className="text-gray-300 mb-2">Option SIN (Systèmes d&apos;Information et Numérique)</p>
                 <p className="text-green-400 font-semibold">2021 - 2023</p>
               </motion.div>
             </div>

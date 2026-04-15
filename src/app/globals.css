@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --primary: #3b82f6;
+  --background: #070a14;
+  --foreground: #f8fbff;
+  --primary: #0ea5e9;
   --secondary: #8b5cf6;
-  --accent: #06b6d4;
+  --accent: #22d3ee;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #070a14;
+    --foreground: #f8fbff;
   }
 }
 
@@ -21,40 +21,50 @@
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background))
-    )
-    rgb(var(--background));
+  background: radial-gradient(circle at top left, rgba(14, 165, 233, 0.12), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.14), transparent 18%),
+    linear-gradient(180deg, #070a14 0%, #05070f 100%);
   font-family: 'Inter', sans-serif;
+  min-height: 100vh;
 }
 
 .glass {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .glow {
-  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 28px rgba(56, 189, 248, 0.25);
 }
 
 .glow-purple {
-  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+  box-shadow: 0 0 28px rgba(139, 92, 246, 0.24);
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 55%, #22d3ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.hero-glow {
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.18), transparent 45%);
+}
+
+.feature-gradient {
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.18), rgba(139, 92, 246, 0.14));
 }
 
 .animate-float {
@@ -69,5 +79,9 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .border-gradient {
+    border-image: linear-gradient(135deg, #0ea5e9, #8b5cf6, #22d3ee) 1;
   }
 }

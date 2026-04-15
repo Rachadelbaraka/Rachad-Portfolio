@@ -104,7 +104,7 @@ export default function Veille() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              Suivi actif des évolutions technologiques et apprentissage continu pour rester à la pointe de l'innovation
+              Suivi actif des évolutions technologiques et apprentissage continu pour rester à la pointe de l&apos;innovation
             </motion.p>
           </div>
         </ScrollReveal>
